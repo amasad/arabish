@@ -61,4 +61,4 @@ import json
 import os
 
 path = os.path.join(os.path.dirname(__file__), 'mapping.json')
-open(path, 'w').write(json.dumps(en_to_ar).encode('utf-8'))
+open(path, 'w').write(json.dumps(en_to_ar, ensure_ascii=False).encode('utf-8'))
