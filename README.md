@@ -4,7 +4,7 @@ Arabic transliteration in Python. Similar to [Yamli.com](http://yamli.com), [Goo
 
 ## Why
 
-Because there isn't a open source transliteration project available. And it's not that hard to get at least 70% accuracy with the right training corpus.
+Because there isn't an open source transliteration project available. And it's not that hard!
 
 ## Approach
 
