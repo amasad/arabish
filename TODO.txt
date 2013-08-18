@@ -20,6 +20,10 @@
 
 * Mar7aban -> 7arakat
 
+* Think about double letters. ss
+
+* Handle arabized words: almessanger
+
 Resources:
 
 http://www.basistech.com/knowledge-center/arabic/arabic-chat-linguistics.pdf
