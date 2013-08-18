@@ -11,3 +11,15 @@
 
 * Implement rankings within the simple mapping word construction
 1- s -> س > ص
+
+* Implement silent letters like: ashams -> الشمس
+
+* Think about "3ax" x->ks
+
+* Think about detached prefixes: el 3arab
+
+* Mar7aban -> 7arakat
+
+Resources:
+
+http://www.basistech.com/knowledge-center/arabic/arabic-chat-linguistics.pdf
