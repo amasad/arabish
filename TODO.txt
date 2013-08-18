@@ -9,3 +9,5 @@
 
 * research implementing edit distance for better results.
 
+* Implement rankings within the simple mapping word construction
+1- s -> س > ص
