@@ -33,5 +33,25 @@ class TestSequenceFunctions(unittest.TestCase):
         u'شو بتقول'
       )
 
+    def test_word_start(self):
+      self.assertEqual(
+        t('ela'),
+        u'إلى'
+      )
+      self.assertEqual(
+        t('omok'),
+        u'أمك'
+      )
+      self.assertEqual(
+        t('al'),
+        u'ال'
+      )
+
+    # def test_non_dictionary_word(self):
+    #   self.assertEqual(
+    #     t('almessenger'),
+    #     u'المسنجر'
+    #   )
+
 if __name__ == '__main__':
   unittest.main()

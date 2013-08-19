@@ -24,18 +24,22 @@ def sort_by_frequency(words):
 def transliterate_word(english):
   ret = set()
 
-  def recur(letters, word):
+  def recur(letters, word, start=False):
     if len(letters) == 0:
       ret.add(word)
       return
-    max_key_len = len(max(list(en_to_ar), key=len))
+    if start:
+      table = en_to_ar['start']
+    else:
+      table = en_to_ar['other']
+    max_key_len = len(max(list(table), key=len))
     for i in range(1, max_key_len + 1):
       l = letters[:i]
-      if l in en_to_ar:
-        for ar in en_to_ar[l]:
+      if l in table:
+        for ar in table[l]:
           recur(letters[i:], word + ar)
 
-  recur(english, '')
+  recur(english, '', True)
   return ret
 
 def transliterate(sentence, verbose=False):

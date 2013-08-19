@@ -3,6 +3,7 @@
 * Implement letter contextual rules like:
 1- e and i could be إ at the beggining of the word.
 2- o can be an أ in ommak for example.
+[PARTIALLY IMPLEMENTED for start of the word and works great]
 
 * vowels right now are gobbled up with no use. We can make use of them:
 1- fa2ina -> فإن vs فأنا
